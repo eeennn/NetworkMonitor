@@ -26,7 +26,14 @@ swiftc -o NetworkMonitor Sources/main.swift -framework Cocoa -O
 
 ## 运行
 
+下载后首次运行需要允许：
+
+1. **右键点击** `NetworkMonitor` → 选择"打开"
+2. 点击"打开"确认
+
+或使用命令行：
 ```bash
+xattr -cr NetworkMonitor
 ./NetworkMonitor
 ```
 
